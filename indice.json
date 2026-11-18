@@ -1,0 +1,35 @@
+{
+  "schema": "guara_loja",
+  "version": 1,
+  "atualizado_em": "2026-11-18T02:47:58.537Z",
+  "plugin": {
+    "versao": "1.5.0",
+    "pagina": "https://guara-plugin.github.io/pacotes/plugin/"
+  },
+  "pacotes": [
+    {
+      "id": "pacote-teste-guara",
+      "versao": "1.0.0",
+      "titulo": "Pacote de teste Guará",
+      "fabricante": "Guará (teste)",
+      "descricao": "Pacote fictício com chapa, fita, dobradiça e cola para testar a loja.",
+      "tipo": "misto",
+      "arquivo": "pacotes/pacote-teste-guara-1.0.0.gpf",
+      "sha256": "1e8422743ef58c5149c5374e2ff3dae557e95957cc3d97ea04c19b31ede41ee3",
+      "tamanho": 1221,
+      "min_plugin": "1.5.0"
+    },
+    {
+      "id": "pacote-futuro-guara",
+      "versao": "1.0.0",
+      "titulo": "Pacote futuro de teste",
+      "fabricante": "Guará (teste)",
+      "descricao": "Pacote fictício que exige um plugin mais novo que o atual.",
+      "tipo": "consumiveis",
+      "arquivo": "pacotes/pacote-futuro-guara-1.0.0.gpf",
+      "sha256": "07924583ad5badda7e3551490230399f173803711c0f9f0f1838274ec723a982",
+      "tamanho": 667,
+      "min_plugin": "9.0.0"
+    }
+  ]
+}
